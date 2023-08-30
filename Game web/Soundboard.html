@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>basic soundboard</title>
+    <script type="text/javascript">
+        function play_sound(clicked_id) {
+          var audio = new Audio(clicked_id + ".mp3");
+          audio.play();
+        }
+      </script>
+</head>
+<body>
+
+    <h1>kangaroo</h1>
+    <div>
+    <img src = "download.jpg" alt="kangaroo" height="25%" width="25%" >
+    </div>
+    <button id="3799" onClick="play_sound(this.id)">Bounce</button>
+    
+    
+</body>
+</html>
