@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family:monospace;
+  background-color: purple;
+  color: rgb(0, 203, 0);
+  font-size: large;
+}
+.topnav {
+  background-color: rgb(130, 130, 222);
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  display: block;
+  color: #ff0000;
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: monospace;
+font-weight: bold;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color:red;
+  color: blue;
+}
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+  background-color: #00da2f;
+  color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+/* Style the header */
+.header {
+  background-color: rgbrgb(255, 0, 85);;
+  padding: 0px;
+  text-align: center;
+  font-size: 35px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column1 {
+  float: left;
+  width: 15%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+  
+}
+.column3 {
+  float: left;
+  width: 15%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+ 
+
+  
+}
+.column2 {
+  float: left;
+  width: 60%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+ 
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+.footer {
+  background-color:purple;
+  padding: 10px;
+  text-align: right;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .column {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+
+
+.button {
+  width: 100%;
+  height: 25%;
+  text-align: center;
+  margin: 3%;
+  background-color:blue;
+  font-size: 50px;
+  }
+  
+  .button1 {
+    width: 100%;
+    height: 25%;
+    text-align: center;
+    margin: 3%;
+    background-color:orange;
+    font-size: 50px;
+    }
