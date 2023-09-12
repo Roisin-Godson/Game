@@ -13,6 +13,9 @@ body {
   overflow: hidden;
 }
 
+.center{
+  text-align: center;
+}
 /* Style the links inside the navigation bar */
 .topnav a {
   float: right;
