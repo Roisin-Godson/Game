@@ -5,20 +5,22 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Guess My Number Game</title>
+  
 </head>
 <body>
-    <div class="topnav" id="myTopnav">
-        <a href="#home" class="active">Home</a>
-        <a href="#news">News</a>
-        <a href="contact.html">Contact</a>
-        <a href="about.html">About</a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">  </a>
+  <div class="topnav" id="myTopnav">
+    <a href="#home" class="active">Home</a>
+    <a href="#news">News</a>
+    <a href="contact.html">Contact</a>
+    <a href="about.html">About</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">  </a>
+  </div>
   <h1>Guess My Number Game</h1>
   <p>Guess a number between 1 and 10:</p>
   <!-- notice how  the input, button and p have an ID?-->
   <!-- This is so our Javascript can identify these elements and manipulate them-->
   <input type="number" id="guessField">
-  <button id="guessSubmit">Submit Guess</button>
+  <div class="button3" button id="guessSubmit">Submit Guess</button> </div>
   <p id="message"></p>
   <!-- Much like we link an external CSS sheet here an external javascript is being linked-->
   <script src="numberGuessLogic.js"></script>
